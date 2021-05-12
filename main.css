@@ -1,0 +1,67 @@
+@import url("https://cdn.maximousblk.now.sh/css/JetBrainsMono.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body,
+html {
+    background-color: #222;
+    color: #fff;
+    font-family: JetBrainsMono, monospace;
+}
+
+.hello {
+    font-size: 4vw;
+    padding-bottom: 8vh;
+}
+
+.name {
+    font-size: 5vw;
+    padding-bottom: 8vh;
+}
+
+.intro {
+    font-size: 3vw;
+    padding-bottom: 8vh;
+}
+
+.outro {
+    font-size: 2vw;
+    padding-bottom: 8vh;
+}
+
+.wrapper {
+    margin: 8vw;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .hello {
+        font-size: 4vh;
+        padding-bottom: 8vw;
+    }
+
+    .name {
+        font-size: 5vh;
+        padding-bottom: 8vw;
+    }
+
+    .intro {
+        font-size: 3vh;
+        padding-bottom: 8vw;
+    }
+
+    .outro {
+        font-size: 3vh;
+        padding-bottom: 12vw;
+    }
+
+    .wrapper {
+        margin: 5vh;
+    }
+}
